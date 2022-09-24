@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.TitleHeading{
+    text-align: center;
+    color:yellow;
+}
+.TitleHeadingAbout{
+    text-align: left;
+    color:yellow;
+    margin-left: 5px;
+}
+.TaskAdd{
+    margin:auto;
+    display: block;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.TaskAddBtn{
+    margin-left: 40rem;
+    margin-top: -60px;
+}
+
+.card{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color:cadetblue;
+}
+
+.TaskAdd{
+    width: 50%;
+}
+
+body{
+    background-color: darkcyan;
+}
+
+.aboutDiv{
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.Tasklist{
+    color: yellow;
+}
+
+.navBar{
+    background-color: darkcyan;
+}
+
+.navBar,.TitleHeading{
+    text-align: center;
+}
+
+.headingLi{
+    text-align: center;
+}
+
+.navbar-custom {
+    background-color: darkcyan;
+}
+
+.Home{
+    margin-top: 50px;
+}
+
+.EmptyDiv{
+    text-align: center;
+    color: yellow;
+}
+
+.searchLabel{
+    color: Yellow;
+    margin-left: 63%;
+    font-size: 18px;
 }
